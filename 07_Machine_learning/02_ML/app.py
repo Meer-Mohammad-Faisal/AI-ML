@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load saved model, scaler, and expected columns
-model = joblib.load("insurance_model.pkl")
+model = joblib.load("models/insurance_model.pkl")
 scaler = joblib.load("scaler.pkl")
 expected_cols = joblib.load("expected_columns.pkl")
 
